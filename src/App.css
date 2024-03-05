@@ -63,14 +63,14 @@
   
 }
 #home .carousel-caption h1 {
-  letter-spacing: 1px;
+  letter-spacing: 1px !important;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 65px !important; 
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 1px 3px rgb(250, 255, 152),
-  2px 2px 3px  rgb(152, 245, 255);
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 2px 1px 3px rgb(0, 0, 0),
+  2px 2px 3px  rgb(0, 0, 0) !important;
 }
       
 
@@ -80,9 +80,9 @@
   font-size: 45px !important; 
   letter-spacing: 1px;
   font-weight: 600;
-  color: #000000;
-  text-shadow: 2px 1px 3px rgb(250, 255, 152),
-  2px 2px 3px  rgb(224, 152, 255);
+  color: #ffffff !important;
+  text-shadow: 2px 1px 3px rgb(0, 0, 0),
+  2px 2px 3px  rgb(0, 0, 0);
 }
 
 #home .carousel-caption p {
@@ -90,9 +90,9 @@
   letter-spacing: 1px;
   font-weight: 300;
   font-family: 'Hepta+Slab'; 
-  color: #000000;
-  text-shadow: 1px 1px 2px rgb(250, 255, 152),
-  1px 2px 2px  rgb(152, 245, 255);
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0),
+  1px 2px 2px  rgb(0, 0, 0);
 }
 
 .carousel-control-prev,
@@ -205,6 +205,119 @@ width: 100px;
   border-radius: 50px;
 }
 
+/* product */
+
+
+#product {
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+  overflow: hidden;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#product h2 {
+  color: #333;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.alice-carousel {
+  margin: 20px 0;
+}
+
+.product-slide {
+  width: 60%;
+  height: 500px;
+  margin-top: 80px !important;
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.product-slide img {
+  width: 100%; 
+  height: 100%; 
+  border-radius: 30px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-slide:hover img {
+  transform: scale(1.1);
+}
+
+.product-slide div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.product-slide h3 {
+  color: #333;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.product-slide p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  width: 20px !important;
+  height: 20px !important;
+  color: red !important;
+}
+
+.alice-carousel__prev-btn:hover,
+.alice-carousel__next-btn:hover {
+  background-color: #ffffff !important;
+}
+
+
+
+/* contact */
+
+#contact{
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(220, 252, 252);
+  text-align: center;
+}
+
+#contact h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#contact h1 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+#contact iframe {
+  width: 80%;
+  height:600px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
 @media (max-width: 1400px) {
   .navbar-brand {
     font-family: "Poppins", sans-serif;
@@ -286,7 +399,7 @@ width: 100px;
     font-weight: 700;
     font-size: 65px !important; 
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 1px 3px rgb(250, 255, 152),
     2px 2px 3px  rgb(152, 245, 255);
   }
@@ -298,7 +411,7 @@ width: 100px;
     font-size: 45px !important; 
     letter-spacing: 1px;
     font-weight: 600;
-    color: #000000;
+    color: #ffffff;
     text-shadow: 2px 1px 3px rgb(250, 255, 152),
     2px 2px 3px  rgb(224, 152, 255);
   }
@@ -308,7 +421,7 @@ width: 100px;
     letter-spacing: 1px;
     font-weight: 300;
     font-family: 'Hepta+Slab'; 
-    color: #000000;
+    color: #ffffff;
   }
     /* about */
 #about .row{
