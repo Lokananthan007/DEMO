@@ -7,7 +7,6 @@ function About() {
         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
             <div className='col ms-5  mt-auto mb-auto'>
             <h3 className='pt-5 ps-4'>About</h3>
-            <h1 className='pt-2 ps-4'>KAR Innovation</h1>
             <h2 className='pt-2 ps-4'>Empowering Smarter Lifestyles</h2>
             <p className='pt-2 ps-4'>
                 KAR Innovation is a product development company that began in 2020,
