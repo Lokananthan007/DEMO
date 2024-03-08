@@ -16,9 +16,9 @@ function Home() {
             className="img-fluid"
           />
           <Carousel.Caption className="animated-caption">
-            <h1>Welcome to KAR INNOVATION</h1>
+            <h1>Welcome to Demo</h1>
             <h3>Revolutionizing Home Automation</h3>
-            <p>Explore the future of smart living with KAR Innovation.</p>
+            <p>Explore the future of smart living with Demo.</p>
           </Carousel.Caption>
         </Carousel.Item>
 

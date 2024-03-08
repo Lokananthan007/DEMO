@@ -9,10 +9,11 @@ function About() {
             <h3 className='pt-5 ps-4'>About</h3>
             <h2 className='pt-2 ps-4'>Empowering Smarter Lifestyles</h2>
             <p className='pt-2 ps-4'>
-                KAR Innovation is a product development company that began in 2020,
+                Demo is a product development company that began in 2020,
                 providing automated solutions tailored to clients' needs.
                 Our team is having wide knowledge of around 15 years experience in
-                 electronics and IoT related development.KAR gives clients to feel living in a comfort and secured home and also gives peaceful atmosphere.
+                electronics and IoT related development.KAR gives clients to feel living in a 
+                comfort and secured home and also gives peaceful atmosphere.
             </p>
             </div>
             <div className='col me-5  mt-auto mb-auto'>

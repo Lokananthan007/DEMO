@@ -12,7 +12,7 @@ const Footer = () => {
     <footer>
       <div className="footer-column">
         <h2>Contact</h2>
-        <FaPhone /><p>Contact: 6385434438</p>
+        <FaPhone /><p>Contact: 1234567890</p>
         <FaEnvelope /> <p>Email: demo@gmail.com</p>
         <FaMapMarker /><p>Address: XXXXXX , YYYYYYY, XXXXXXX,<br/> pincode-xxx xxx</p>
       </div>
